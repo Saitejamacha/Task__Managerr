@@ -30,12 +30,13 @@ const TaskFilters = () => {
   const [filterDate, setFilterDate] = useState(null);
   const open = Boolean(anchorEl);
 
-  // Testing..
+  // Testing...
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
+  // Test
   const handleClose = () => {
     setAnchorEl(null);
   };
